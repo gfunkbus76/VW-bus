@@ -1,0 +1,15 @@
+[Unit]
+Description=Custom OpenAuto Pro Splash service
+DefaultDependencies=no
+Requires=local-fs.target
+After=local-fs.target
+
+[Service]
+User=pi
+Type=oneshot
+Restart=no
+ExecStart=/usr/local/bin/splash2.sh
+
+
+[Install]
+WantedBy=sysinit.target
