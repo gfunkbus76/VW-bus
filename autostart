@@ -1,0 +1,11 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+point-rpi
+xset s off
+xset s noblank
+xset -dpms
+@/usr/bin/onboard
+/usr/local/bin/openauto
+/usr/local/bin/controller_service_watchdog.sh
+/usr/local/bin/touchstart.sh
