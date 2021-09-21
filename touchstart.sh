@@ -1,3 +1,3 @@
 !/bin/bash
 
-xinput map-to-output 7 HDMI-2
+xinput map-to-output 9 HDMI-1
